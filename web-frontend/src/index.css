@@ -1,0 +1,79 @@
+/* ===== GLOBAL DARK TECH THEME ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #020617, #020617, #000);
+  color: #e5e7eb;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.2rem;
+  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  color: #7dd3fc;
+  margin-top: 30px;
+}
+
+/* Layout */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Glass cards */
+.card {
+  background: rgba(2, 6, 23, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 35px rgba(56, 189, 248, 0.18);
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #1e293b;
+  color: #cbd5f5;
+  font-size: 0.95rem;
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  border: none;
+  color: #020617;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
